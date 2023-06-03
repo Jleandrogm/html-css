@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel de perfil</title>
+</head>
+<body>
+    <h1>Imagem flexivel de perfil</h1> 
+    <p>Logo abaixo você verá minha imagem de perfil</p> 
+    <picture> 
+        <source media="(max-width: 750px )" srcset="imagens/imagem de perfil-p.jpg" type="image/jpg"> 
+        <source media="(max-width: 1050px )" srcset="imagens/imagem de perfil-m.jpg" type="image/jpg">
+        <img src="imagens/imagem de perfil-g.jpg" alt="imagem de perfil">
+    </picture>
+</body>
+</html>
