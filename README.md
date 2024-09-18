@@ -5,4 +5,4 @@ Estou aprendendo a criar sites e agora vou gereneciar meus repositorios!
  
 <p>Ex:<a href="exercicios/ex0026/mq002/estilos/index.html">026</a></p>
  
-<p>Ex:<a href="exercicios/ex0026/mq005/index.html">026</a></p>
+<p>Ex:<a href="exercicios/ex0026/mq005/index.html">027</a></p>
