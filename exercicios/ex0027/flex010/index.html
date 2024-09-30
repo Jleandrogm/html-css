@@ -10,25 +10,34 @@
 
 
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
         }
         div.item{
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
             flex-basis: 150px;
+
+        }
+        div #a{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        div #b{
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+        div #c{
+            flex-grow: 1;
+            flex-shrink: 2;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">Outro Conteúdo</div>
-        <div class="item">C</div>
-        <div class="item">Contúdo um pouco maior</div>
-        <div class="item">E</div>
-        <div class="item">Contúdo maior ainda que vai ocupar um pouco mais de espaço</div>
-        <div class="item">G</div>
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
     </div>
 </body>
 </html>
